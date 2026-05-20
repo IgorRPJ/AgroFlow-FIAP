@@ -3,3 +3,349 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.hero-section {
+  background: linear-gradient(
+    to bottom right,
+    #f0fdf4,
+    #ffffff,
+    #f0fdf4
+  );
+
+  padding: 100px 0;
+}
+
+.hero-card {
+  background: linear-gradient(
+    to bottom right,
+    #4ade80,
+    #16a34a
+  );
+
+  min-height: 350px;
+}
+
+.cta-section {
+  background: linear-gradient(
+    to right,
+    #16a34a,
+    #15803d
+  );
+}
+
+.feature-card {
+  transition: 0.3s;
+  border-radius: 16px;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 0 10px 25px rgba(
+    0,
+    0,
+    0,
+    0.1
+  );
+}
+
+.icon-box {
+  width: 64px;
+  height: 64px;
+
+  background-color: #f8f9fa;
+
+  border-radius: 12px;
+}
+
+
+.logo-icon {
+
+  width: 40px;
+  height: 40px;
+
+  background: linear-gradient(
+    to bottom right,
+    #16a34a,
+    #15803d
+  );
+
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link {
+
+  border-radius: 10px;
+
+  padding: 8px 16px !important;
+
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+
+  background-color: #f3f4f6;
+}
+
+.nav-link.active {
+
+  background-color: #dcfce7;
+
+  color: #15803d !important;
+
+  font-weight: 600;
+}
+
+.footer-section {
+
+  background-color: #111827;
+}
+
+.text-footer {
+
+  color: #d1d5db;
+}
+
+.text-purple-custom {
+
+  color: #7c3aed;
+}
+
+.footer-link {
+
+  color: #d1d5db;
+
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+
+.footer-link:hover {
+
+  color: #4ade80;
+}
+
+.footer-link.disabled {
+
+  opacity: 0.55;
+
+  pointer-events: none;
+}
+
+.footer-bottom {
+
+  border-top: 1px solid #1f2937;
+}
+
+.tech-card {
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    padding: 24px;
+
+    border: 1px solid #e5e7eb;
+
+    transition: 0.3s;
+
+    height: 100%;
+
+}
+
+.tech-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: 0 20px 40px rgba(
+        0,
+        0,
+        0,
+        0.08
+    );
+
+}
+
+.icon-tech {
+
+    width: 70px;
+
+    height: 70px;
+
+    background-color: #f9fafb;
+
+    border-radius: 18px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 32px;
+
+    margin-bottom: 20px;
+
+}
+
+.architecture-wrapper {
+
+    max-width: 900px;
+
+    margin: auto;
+
+}
+
+.architecture-card {
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    padding: 24px;
+
+    display: flex;
+
+    gap: 20px;
+
+    box-shadow: 0 10px 30px rgba(
+        0,
+        0,
+        0,
+        0.05
+    );
+
+}
+
+.architecture-number {
+
+    width: 50px;
+
+    height: 50px;
+
+    background-color: #16a34a;
+
+    color: white;
+
+    border-radius: 14px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    flex-shrink: 0;
+
+}
+
+.architecture-tag {
+
+    background-color: #dcfce7;
+
+    color: #15803d;
+
+    padding: 8px 14px;
+
+    border-radius: 999px;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+}
+
+.architecture-line {
+
+    width: 2px;
+
+    height: 40px;
+
+    background-color: #86efac;
+
+    margin: auto;
+
+}
+
+.performance-card {
+
+    border-radius: 24px;
+
+    padding: 32px;
+
+    border: 1px solid #e5e7eb;
+
+    text-align: center;
+
+    transition: 0.3s;
+
+}
+
+.performance-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 15px 30px rgba(
+        0,
+        0,
+        0,
+        0.08
+    );
+
+}
+
+.performance-card h2 {
+
+    font-size: 42px;
+
+    margin-bottom: 10px;
+
+}
+
+.performance-green {
+
+    background: linear-gradient(
+        to bottom right,
+        #dcfce7,
+        white
+    );
+
+}
+
+.performance-blue {
+
+    background: linear-gradient(
+        to bottom right,
+        #dbeafe,
+        white
+    );
+
+}
+
+.performance-purple {
+
+    background: linear-gradient(
+        to bottom right,
+        #ede9fe,
+        white
+    );
+
+}
+
+.performance-orange {
+
+    background: linear-gradient(
+        to bottom right,
+        #ffedd5,
+        white
+    );
+
+}
