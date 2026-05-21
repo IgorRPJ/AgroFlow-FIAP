@@ -312,21 +312,19 @@ architecture.forEach((layer, index) => {
 
       </div>
 
-      ${
-        index < architecture.length - 1
+      ${index < architecture.length - 1
 
-        ? `
+      ? `
 
           <div class="architecture-line"></div>
 
         `
 
-        : ""
+      : ""
 
-      }
+    }
 
     </div>
 
   `;
 });
-
